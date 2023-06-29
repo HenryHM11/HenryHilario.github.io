@@ -1,0 +1,376 @@
+.hen {
+    background-size: cover;
+    animation: moveBackground 80s infinite linear alternate;
+    pointer-events: none;
+}
+
+@keyframes moveBackground {
+    0% { background-position: 0 0; }
+    50% { background-position: 0 100%; }
+    100% { background-position: 0 0; }
+}
+
+h1, p {
+    position: relative;
+    z-index: 1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Century Gothic', sans-serif;
+    box-sizing: border-box;
+}
+
+.hen {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 19px;
+    padding-left: 8%;
+    padding-right: 8px;
+    pointer-events: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+span {
+    color: aqua;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: aqua;
+    transition: .4s;
+}
+
+.btn {
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.presentacion {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.datos form {
+    top: 15px;
+    width: 700px;
+    max-width: 100%;
+    position: relative;
+}
+
+.habilidades {
+    background-size: cover;
+    animation: moveBackground 80s infinite linear alternate;
+}
+
+.habilidades {
+    pointer-events: none;
+    height: 150vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.habilidades img {
+    height: 125px;
+    width: 110px;
+    margin-right: 15px;
+}
+
+.texto {
+    width: 550px;
+    height: 75vh;
+}
+
+.main {
+    width: 30px;
+    max-width: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.texto h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.texto h5 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.texto p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.subt {
+    text-align: center;
+}
+
+
+
+.habilidades-img:last-child {
+    margin-right: 0;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    margin: 55px;
+}
+.proyecto {
+    background: #191919;
+    background-size: cover;
+    animation: moveBackground 80s infinite linear alternate;
+}
+.proyecto {
+    height: 130vh;
+    width: 100%;
+    
+}
+
+.titulo h2 {
+    pointer-events: none;
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    height: 255px;
+    width: 255px;
+    padding: 20px 20px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: opacity 0.9s;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.card:hover {
+    opacity: 1;
+}
+.card:hover .overlay {
+    opacity: 1;
+    
+}
+
+.text {
+    margin-bottom: 10px;
+    
+}
+
+.text:last-child {
+    margin-bottom: 0;
+
+}
+
+.ima {
+    max-width: 100%;
+    height: auto;
+    
+}
+.overlay .text {
+    background-color: #f9004d;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+}
+
+.overlay .text:last-child {
+    margin-bottom: 0;
+}
+.text {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.text:hover {
+    
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    
+    
+}
+
+.proyecto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contacto {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    background: #191919;
+    width: 100%;
+    height: 50vh;
+}
+
+.contacto h2 {
+    margin-bottom: 10px;
+}
+
+.contacto p {
+    margin-bottom: 5px;
+}
+
+.contacto a {
+    text-decoration: none;
+    color: #555555;
+    font-weight: bold;
+}
+
+.contacto a:hover {
+    color: #000000;
+}
+.fondo1{
+    background-image: url(/img/otl.jpg);
+    background-size: cover;
+    animation: moveBackground 80s infinite linear alternate;
+}
