@@ -239,7 +239,7 @@ html {
     height: 255px;
     width: 255px;
     padding: 20px 20px;
-    background: white;
+    background: rgb(0, 134, 166);
     border-radius: 10px;
     margin: 20px;
     position: relative;
@@ -253,7 +253,7 @@ html {
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: #f9004d;
+    color: rgb(165, 0, 172);
 }
 
 
@@ -307,7 +307,7 @@ html {
     
 }
 .overlay .text {
-    background-color: #f9004d;
+    background-color: rgb(165, 0, 172);
     color: white;
     border-radius: 50px;
     padding: 8px 20px;
@@ -351,9 +351,10 @@ html {
     text-align: center;
     padding: 20px;
     background-color: #f2f2f2;
-    background: #191919;
+    background: rgb(3, 2, 14);
     width: 100%;
     height: 50vh;
+    color: whitesmoke;
 }
 
 .contacto h2 {
@@ -370,9 +371,7 @@ html {
     font-weight: bold;
 }
 
-.contacto a:hover {
-    color: #000000;
-}
+
 .fondo1{
     background-image: url(/img/op.png);
     background-size: cover;
