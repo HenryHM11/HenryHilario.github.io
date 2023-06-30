@@ -43,7 +43,7 @@ nav {
     left: 0;
     width: 100%;
     z-index: 9999;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo {
@@ -53,7 +53,8 @@ nav {
 }
 
 span {
-    color: aqua;
+    color: rgb(165, 0, 172);
+    
 }
 
 nav ul li {
@@ -70,7 +71,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: aqua;
+    color: rgb(0, 134, 166);
     transition: .4s;
 }
 
@@ -126,14 +127,12 @@ h4 {
 
 .habilidades {
     pointer-events: none;
-    height: 150vh;
     width: 100%;
+    height: 130vh;
     background-size: cover;
     background-position: center;
-
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 
@@ -144,8 +143,10 @@ h4 {
 }
 
 .texto {
-    width: 550px;
+    width: 900px;
+    max-width: 100%;
     height: 75vh;
+    margin: 85px;
 }
 
 .main {
@@ -163,6 +164,7 @@ h4 {
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .texto h5 {
@@ -211,7 +213,7 @@ html {
     animation: moveBackground 80s infinite linear alternate;
 }
 .proyecto {
-    height: 130vh;
+    height: 100vh;
     width: 100%;
     
 }
@@ -371,7 +373,7 @@ html {
     color: #000000;
 }
 .fondo1{
-    background-image: url(/img/otl.jpg);
+    background-image: url(/img/op.png);
     background-size: cover;
     animation: moveBackground 80s infinite linear alternate;
 }
