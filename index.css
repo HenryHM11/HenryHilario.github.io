@@ -236,8 +236,8 @@ html {
     height: 255px;
     width: 255px;
     padding: 20px 20px;
-    background: #191919;
-    border-radius: 20px;
+    background: white;
+    border-radius: 10px;
     margin: 20px;
     position: relative;
     overflow: hidden;
@@ -257,6 +257,7 @@ html {
 .image-container {
     position: relative;
     display: inline-block;
+    border-radius: 0;
 }
 
 .overlay {
@@ -276,7 +277,7 @@ html {
     color: #fff;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 4px;
     
 }
 .card:hover {
