@@ -1,6 +1,6 @@
 .hen {
     background-size: cover;
-    animation: moveBackground 80s infinite linear alternate;
+    animation: moveBackground 110s infinite linear alternate;
     pointer-events: none;
 }
 
@@ -375,7 +375,7 @@ html {
 .fondo1{
     background-image: url(/img/op.png);
     background-size: cover;
-    animation: moveBackground 80s infinite linear alternate;
+    animation: moveBackground 40s infinite linear alternate;
 }
 @media only screen and (max-width: 768px) {
     nav {
@@ -529,4 +529,25 @@ html {
     100% {
     background-position: 100% 100%;
     }
+}
+.fa-container {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    background-color: transparent;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.fa-container i {
+    font-size: 20px;
+    color: #000000;
+}
+
+.fa-container:hover {
+    border-color: rgb(0, 134, 166);
+    background: rgb(0, 134, 166);
 }
