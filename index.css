@@ -377,3 +377,137 @@ html {
     background-size: cover;
     animation: moveBackground 80s infinite linear alternate;
 }
+@media only screen and (max-width: 768px) {
+    nav {
+    padding: 15px 20px;
+    }
+
+    .logo {
+    font-size: 28px;
+    }
+
+    nav ul li {
+    margin-left: 15px;
+    }
+
+    .datos form {
+    width: 400px;
+    }
+
+    .texto {
+    margin: 35px;
+    }
+
+    .texto h2 {
+    font-size: 45px;
+    }
+
+    .texto h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    }
+
+    .texto p {
+    font-size: 16px;
+    margin-bottom: 35px;
+    }
+
+    .titulo h2 {
+    font-size: 55px;
+    width: 100%;
+    margin: 15px auto;
+    }
+
+    .caja {
+    flex-wrap: wrap;
+    }
+
+    .card {
+    height: 200px;
+    width: 200px;
+    padding: 15px 15px;
+    margin: 10px;
+    }
+
+    .card i {
+    font-size: 40px;
+    margin: 15px 0px;
+    }
+
+    .contacto {
+    padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    nav {
+    padding: 10px 15px;
+    }
+
+    .logo {
+    font-size: 24px;
+    }
+
+    nav ul li {
+    margin-left: 12px;
+    }
+
+    .datos form {
+    width: 300px;
+    }
+
+    .texto {
+    margin: 25px;
+    }
+
+    .texto h2 {
+    font-size: 35px;
+    }
+
+    .texto h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    }
+
+    .texto p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    }
+
+    .titulo h2 {
+    font-size: 45px;
+    width: 100%;
+    margin: 10px auto;
+    }
+
+    .caja {
+    flex-wrap: wrap;
+    }
+
+    .card {
+    height: 160px;
+    width: 160px;
+    padding: 10px 10px;
+    margin: 8px;
+    }
+
+    .card i {
+    font-size: 30px;
+    margin: 10px 0px;
+    }
+
+    .contacto {
+    padding: 25px 0;
+    }
+}
+
+  /* Animación del fondo */
+
+@keyframes moveBackground {
+    0% {
+    background-position: 0 0;
+    }
+    100% {
+    background-position: 100% 100%;
+    }
+}
