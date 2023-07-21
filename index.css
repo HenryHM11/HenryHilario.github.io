@@ -87,7 +87,7 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     color: black;
 }
 
@@ -236,12 +236,12 @@ html {
 }
 
 .card {
-    height: 255px;
-    width: 255px;
-    padding: 20px 20px;
-    background: rgb(0, 134, 166);
+    height: 240px;
+    width: 240px;
+    padding: 10px 10px;
+    background: rgb(255, 244, 74);
     border-radius: 10px;
-    margin: 20px;
+    margin: 10px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -253,7 +253,8 @@ html {
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: rgb(165, 0, 172);
+    color: rgb(255, 247, 122);
+    
 }
 
 
@@ -281,7 +282,8 @@ html {
     font-size: 16px;
     font-weight: bold;
     border-radius: 4px;
-    
+    background-image: url(/img/bgpower.png);
+    background-size: cover;
 }
 .card:hover {
     opacity: 1;
@@ -307,8 +309,8 @@ html {
     
 }
 .overlay .text {
-    background-color: rgb(165, 0, 172);
-    color: white;
+    background-color: rgb(255, 247, 122, 0.3);
+    color: black;
     border-radius: 50px;
     padding: 8px 20px;
     margin-bottom: 10px;
@@ -330,9 +332,9 @@ html {
 .text:hover {
     
     background-color: transparent;
-    border: 2px solid #f9004d;
+    border: 2px solid rgb(0, 134, 166);
     cursor: pointer;
-    
+    color: rgb(0, 134, 166);
     
 }
 
@@ -351,7 +353,6 @@ html {
     text-align: center;
     padding: 20px;
     background-color: #f2f2f2;
-    background: rgb(3, 2, 14);
     width: 100%;
     height: 50vh;
     color: whitesmoke;
@@ -535,19 +536,31 @@ html {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 2px solid #000000;
+    border: 2px solid white;
     background-color: transparent;
     text-align: center;
     line-height: 40px;
     transition: background-color 0.3s, border-color 0.3s;
+    color: white;
 }
 
 .fa-container i {
     font-size: 20px;
-    color: #000000;
 }
 
 .fa-container:hover {
+    color: black;
     border-color: rgb(0, 134, 166);
     background: rgb(0, 134, 166);
 }
+
+.contacto {
+    position: relative;
+    width: 100%;
+    height: 60vh; 
+    overflow: hidden;
+    background-image: url(/img/blu.png);
+    background-size: cover;
+    animation: moveBackground 70s infinite linear alternate;
+}
+
