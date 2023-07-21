@@ -376,7 +376,7 @@ html {
 .fondo1{
     background-image: url(/img/op.png);
     background-size: cover;
-    animation: moveBackground 40s infinite linear alternate;
+    animation: moveBackground 15s infinite linear alternate;
 }
 @media only screen and (max-width: 768px) {
     nav {
