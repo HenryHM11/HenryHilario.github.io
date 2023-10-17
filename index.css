@@ -379,7 +379,9 @@ html {
     background-image: url(/img/op.png);
     background-size: cover;
     animation: moveBackground 15s infinite linear alternate;
+    background-repeat: no-repeat;
 }
+
 @media only screen and (max-width: 768px) {
     nav {
     padding: 15px 20px;
