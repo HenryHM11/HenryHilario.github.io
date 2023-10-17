@@ -569,7 +569,7 @@ html {
     animation: moveBackground 70s infinite linear alternate;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .habilidades {
         padding: 20px; /* Añade un relleno para separar los elementos de la sección */
     }
@@ -597,6 +597,43 @@ html {
     .habilidades img {
         height: 80px;
         width: 80px;
+        margin-right: 20px;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 4px 0.3px;
+    }
+    nav {
+        padding: 37px 4.5;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul li:nth-child(1),
+    nav ul li:nth-child(2),
+    nav ul li:nth-child(3),
+    nav ul li:nth-child(4) {
+        display: none; /* Oculta los elementos que desees */
+    }
+}
+@media (max-width: 850px) {
+    .habilidades {
+        padding: 20px; /* Añade un relleno para separar los elementos de la sección */
+    }
+    .iconos img {
+        max-width: 95px; /* Limita el ancho máximo de los iconos para evitar desbordamiento */
+        margin: 0; /* Elimina el margen entre los iconos */
+    }
+
+    /* Agrega el margen vertical de 69px entre las filas de imágenes */
+    .iconos > img {
+        margin-bottom: 20px; /* Espacio fijo de 69px entre filas */
+    }
+
+    .habilidades img {
+        height: 90px;
+        width: 90px;
         margin-right: 20px;
     }
     nav ul li {
