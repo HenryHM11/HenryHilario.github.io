@@ -46,6 +46,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(3.5px);
     border-bottom: 0.5px solid #2c2c2c;
+
 }
 
 .logo {
@@ -643,6 +644,7 @@ html {
     }
     nav {
         padding: 37px 4.5;
+        height: 75px;
     }
 }
 /* Estilos para ocultar múltiples elementos en dispositivos móviles */
@@ -651,7 +653,7 @@ html {
     nav ul li:nth-child(2),
     nav ul li:nth-child(3),
     nav ul li:nth-child(4) {
-        display: none; /* Oculta los elementos que desees */
+        display: none;
     }
 }
 
