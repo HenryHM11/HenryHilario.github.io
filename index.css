@@ -580,17 +580,17 @@ html {
     nav ul li:nth-child(3),
     nav ul li:nth-child(4) {
         display: none;
+    }
     .habilidades {
-        padding: 20px; /* Añade un relleno para separar los elementos de la sección */
+        padding: 20px;
     }
     .iconos img {
-        max-width: 95px; /* Limita el ancho máximo de los iconos para evitar desbordamiento */
-        margin: 0; /* Elimina el margen entre los iconos */
+        max-width: 95px;
+        margin: 0;
     }
 
-    /* Agrega el margen vertical de 69px entre las filas de imágenes */
     .iconos > img {
-        margin-bottom: 20px; /* Espacio fijo de 69px entre filas */
+        margin-bottom: 20px;
     }
 
     .habilidades img {
