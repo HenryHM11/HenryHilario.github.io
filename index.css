@@ -568,3 +568,9 @@ html {
     animation: moveBackground 70s infinite linear alternate;
 }
 
+@media (max-width: 768px) {
+    .fondo1 {
+        background-image: url('/img/op.png');
+        background-size: cover;
+    }
+}
