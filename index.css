@@ -208,7 +208,8 @@ html {
 .iconos {
     display: flex;
     justify-content: center;
-    margin: 55px;
+    margin: 0px;
+    flex-wrap: wrap;
 }
 .proyecto {
     background: #191919;
@@ -507,22 +508,22 @@ html {
     nav ul {
         flex-direction: column;
         align-items: flex-start;
-      }
+    }
     
-      nav ul li {
+    nav ul li {
         display: block;
         margin: 10px 0;
         padding: 0;
-      }
+    }
     
-      nav ul li a {
+    nav ul li a {
         padding: 10px 15px;
-      }
+    }
     
-      nav ul li a:hover {
+    nav ul li a:hover {
         background-color: transparent;
         color: rgb(0, 134, 166);
-      }
+    }
 }
 
   /* Animación del fondo */
@@ -569,12 +570,6 @@ html {
 }
 
 @media (max-width: 768px) {
-    .fondo1 {
-        background-image: url('/img/op.png');
-        background-size: cover;
-    }
-}
-@media (max-width: 768px) {
     .habilidades {
         padding: 20px; /* Añade un relleno para separar los elementos de la sección */
     }
@@ -590,7 +585,20 @@ html {
     }
 
     .iconos img {
-        max-width: 80px; /* Limita el ancho máximo de los iconos para evitar desbordamiento */
-        margin: 10px; /* Agrega un margen entre los iconos */
+        max-width: 70px; /* Limita el ancho máximo de los iconos para evitar desbordamiento */
+        margin: 0; /* Elimina el margen entre los iconos */
+    }
+
+    /* Agrega el margen vertical de 69px entre las filas de imágenes */
+    .iconos > img {
+        margin-bottom: 10px; /* Espacio fijo de 69px entre filas */
+    }
+
+    .habilidades img {
+        height: 60px;
+        width: 60px;
+        margin-right: 15px;
     }
 }
+
+
