@@ -574,3 +574,23 @@ html {
         background-size: cover;
     }
 }
+@media (max-width: 768px) {
+    .habilidades {
+        padding: 20px; /* Añade un relleno para separar los elementos de la sección */
+    }
+
+    .texto {
+        text-align: center; /* Centra el contenido */
+    }
+
+    .iconos {
+        display: flex;
+        flex-wrap: wrap; /* Envuelve los iconos en una nueva línea si no caben en la pantalla */
+        justify-content: center; /* Centra los iconos horizontalmente */
+    }
+
+    .iconos img {
+        max-width: 80px; /* Limita el ancho máximo de los iconos para evitar desbordamiento */
+        margin: 10px; /* Agrega un margen entre los iconos */
+    }
+}
