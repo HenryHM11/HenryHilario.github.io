@@ -652,6 +652,10 @@ html {
             display: inline-block;
             padding: 4px 0.3px;
         }
-        
-    
+        .presentacion h1 {
+            font-size:42px;
+        }
+        .presentacion .datos form h4 {
+                font-size: 12px;
+}
 }
