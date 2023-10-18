@@ -556,6 +556,10 @@ html {
 @media (max-width: 986px) {
     nav ul li:nth-child(1){
     display: none;
+    
+}
+    body {
+        overflow-x: hidden;
 }
 }
 @media (max-width: 880px) {
@@ -588,11 +592,17 @@ html {
     .iconos > img {
         margin-bottom: 69px;
     }
-    
+    body {
+        overflow-x: hidden;
+}
 }
 @media (max-width: 580px) {
     .presentacion h1 {
         font-size: 60px;
+    
+    }
+    body {
+        overflow-x: hidden;
 }
 }
 @media (max-width: 513px) {
@@ -603,6 +613,9 @@ html {
     font-size: 11px;
     margin-bottom: 45px;
     text-align: center;
+    }
+    body {
+        overflow-x: hidden;
 }
 }
 @media (max-width: 462px) {
@@ -610,6 +623,9 @@ html {
         height: 70px;
         width: 70px;
         margin-right: 17px;
+    }
+    body {
+        overflow-x: hidden;
     }
 }
 
@@ -621,6 +637,9 @@ html {
     }
     .btn {
         display: none;
+    }
+    body {
+        overflow-x: hidden;
     }
 }
 
@@ -656,6 +675,10 @@ html {
             font-size:42px;
         }
         .presentacion .datos form h4 {
-                font-size: 12px;
+            font-size: 12px;
+        }
+        body {
+            overflow-x: hidden;
+        }
 }
-}
+
