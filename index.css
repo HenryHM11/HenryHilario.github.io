@@ -639,6 +639,7 @@ html {
         display: none;
     }
     body {
+        max-width: 100%;
         overflow-x: hidden;
     }
 }
@@ -678,6 +679,7 @@ html {
             font-size: 12px;
         }
         body {
+            max-width: 100%;
             overflow-x: hidden;
         }
 }
