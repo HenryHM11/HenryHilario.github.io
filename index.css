@@ -1,3 +1,31 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #000, #333, #000); /* Establece un fondo degradado completamente negro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Asegura que la pantalla de carga esté en la parte superior */
+}
+
+.loader.fade-out {
+    animation: fadeOut 1s ease forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    display: none;
+    }
+}
+
+/*aa*/
 .hen {
     background-size: cover;
     animation: moveBackground 110s infinite linear alternate;
@@ -42,7 +70,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 9999;
+    z-index: 999;
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(3.5px);
     border-bottom: 0.5px solid #2c2c2c;
