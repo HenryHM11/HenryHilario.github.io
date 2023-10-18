@@ -398,28 +398,6 @@ html {
     margin-left: 15px;
     }
 
-    .datos form {
-    width: 400px;
-    }
-
-    .texto {
-    margin: 35px;
-    }
-
-    .texto h2 {
-    font-size: 45px;
-    }
-
-    .texto h5 {
-    font-size: 18px;
-    margin-bottom: 20px;
-    }
-
-    .texto p {
-    font-size: 16px;
-    margin-bottom: 35px;
-    }
-
     .titulo h2 {
     font-size: 55px;
     width: 100%;
@@ -611,8 +589,19 @@ html {
         margin-bottom: 69px;
     }
     .texto p {
-        font-size: 10px;
-        margin-bottom: 5px;
+        color: #fcfc;
+        letter-spacing: 1px;
+        line-height: 25px;
+        font-size: 50px;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+}
+@media (max-width: 413px) {
+    .habilidades img {
+        height: 70px;
+        width: 70px;
+        margin-right: 17px;
     }
 }
 @media (max-width: 380px) {
@@ -625,13 +614,7 @@ html {
         display: none;
     }
 }
-@media (max-width: 413px) {
-    .habilidades img {
-        height: 70px;
-        width: 70px;
-        margin-right: 17px;
-    }
-}
+
 @media (max-width: 370px) {
     .habilidades img {
         height: 70px;
