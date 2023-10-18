@@ -7,5 +7,5 @@ window.addEventListener("load", function () {
     setTimeout(function () {
         loader.style.display = "none";
       }, 1000); // 1 segundo
-    }, 1500); // 5000 milisegundos (5 segundos)
+    }, 900); // 5000 milisegundos (5 segundos)
 });
