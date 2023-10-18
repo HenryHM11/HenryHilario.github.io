@@ -610,6 +610,10 @@ html {
     .iconos > img {
         margin-bottom: 69px;
     }
+    .texto p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
 }
 @media (max-width: 380px) {
     .logo {
@@ -619,6 +623,13 @@ html {
     }
     .btn {
         display: none;
+    }
+}
+@media (max-width: 413px) {
+    .habilidades img {
+        height: 70px;
+        width: 70px;
+        margin-right: 17px;
     }
 }
 @media (max-width: 370px) {
