@@ -557,7 +557,7 @@ html {
 }
 .fa-container i {
     font-size: 20px;
-
+    text-decoration: none;
 }
 
 .fa-container:hover {
@@ -609,6 +609,16 @@ html {
     /* Agrega el margen vertical de 69px entre las filas de imágenes */
     .iconos > img {
         margin-bottom: 69px;
+    }
+}
+@media (max-width: 380px) {
+    .logo {
+        color:white;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .btn {
+        display: none;
     }
 }
 @media (max-width: 370px) {
