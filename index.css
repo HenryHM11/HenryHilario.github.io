@@ -588,21 +588,32 @@ html {
     .iconos > img {
         margin-bottom: 69px;
     }
-    .texto p {
-        color: #fcfc;
-        letter-spacing: 1px;
-        line-height: 25px;
-        font-size: 50px;
-        margin-bottom: 45px;
-        text-align: center;
-    }
+    
 }
-@media (max-width: 413px) {
+@media (max-width: 580px) {
+    .presentacion h1 {
+        font-size: 60px;
+}
+}
+@media (max-width: 513px) {
+.texto p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 11px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+}
+@media (max-width: 462px) {
     .habilidades img {
         height: 70px;
         width: 70px;
         margin-right: 17px;
     }
+    .presentacion h1 {
+        font-size: 47px;
+}
 }
 @media (max-width: 380px) {
     .logo {
@@ -643,4 +654,12 @@ html {
             display: inline-block;
             padding: 4px 0.3px;
         }
+        .presentacion h1 {
+            font-size: 47px;
     }
+}
+@media (max-width: 370px) {
+    .presentacion h1 {
+        font-size: 37px;
+}
+}
