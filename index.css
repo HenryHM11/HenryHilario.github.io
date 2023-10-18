@@ -143,7 +143,8 @@ h4 {
 .habilidades img {
     height: 125px;
     width: 125px;
-    margin-right: 15px;
+    margin-right: 50px;
+    margin-top: 15px;
 }
 
 .texto {
@@ -581,14 +582,28 @@ html {
     nav ul li:nth-child(4) {
         display: none;
     }
-    .habilidades img {
-        height: 100px;
-        width: 100px;
-        margin-right: 15px;
-    }
     nav {
         padding: 7px 4.5;
         height: 75px;
+    }
+    .habilidades img {
+        height: 115px;
+        width: 115px;
+        margin-right: 35px;
+        margin-top: 25px;
+    }
+    .iconos {
+        display: flex;
+        flex-wrap: wrap; /* Envuelve los iconos en una nueva línea si no caben en la pantalla */
+    }
+
+    .iconos img {
+        margin: 0; /* Elimina el margen entre los iconos */
+    }
+
+    /* Agrega el margen vertical de 69px entre las filas de imágenes */
+    .iconos > img {
+        margin-bottom: 69px;
     }
 }
 @media (max-width: 370px) {
@@ -596,6 +611,7 @@ html {
         height: 70px;
         width: 70px;
         margin-right: 17px;
+    }
         .habilidades {
             padding: 20px;
         }
@@ -619,4 +635,3 @@ html {
             padding: 4px 0.3px;
         }
     }
-}
