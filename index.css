@@ -611,10 +611,8 @@ html {
         width: 70px;
         margin-right: 17px;
     }
-    .presentacion h1 {
-        font-size: 47px;
 }
-}
+
 @media (max-width: 380px) {
     .logo {
         color:white;
@@ -654,12 +652,6 @@ html {
             display: inline-block;
             padding: 4px 0.3px;
         }
-        .presentacion h1 {
-            font-size: 47px;
-    }
-}
-@media (max-width: 370px) {
-    .presentacion h1 {
-        font-size: 37px;
-}
+        
+    
 }
