@@ -498,6 +498,10 @@ html {
     .iconos-container {
         margin: 0px 78px 0 78px;
     }
+    .card {
+        height: 200px;
+        width: 200px;
+    }
 }
 @media only screen and (max-width: 755px) {
     .iconos-container {
@@ -554,8 +558,12 @@ html {
         font-size: 60px;
     }
 }
-
-
+@media (max-width: 513px) {
+.card {
+    height: 160px;
+    width: 160px;
+}
+}
 @media (max-width: 513px) {
 .texto p {
     color: #fcfc;
