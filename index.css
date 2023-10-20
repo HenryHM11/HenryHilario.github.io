@@ -143,6 +143,8 @@ h4 {
     color: #fcfc;
     letter-spacing: 2px;
     font-size: 20px;
+    overflow: hidden;
+
 }
 
 .datos form {
@@ -166,7 +168,6 @@ h4 {
     justify-content: center;
 }
 
-
 .habilidades img {
     height: 125px;
     width: 125px;
@@ -178,6 +179,7 @@ h4 {
     width: 900px;
     max-width: 100%;
     margin: 85px 85px 0 85px;
+    font-size: 50px;
 }
 
 .main {
@@ -192,7 +194,6 @@ h4 {
 
 .texto h2 {
     color: white;
-    font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
     text-align: center;
@@ -233,7 +234,6 @@ html {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: purple;
     margin: 0px 125px 0 125px;
 }
 .iconos-container img {
@@ -246,28 +246,25 @@ html {
 .proyecto {
     background: #191919;
     background-size: cover;
-    animation: moveBackground 80s infinite linear alternate;
 }
 .proyecto {
-    height: 100vh;
     width: 100%;
-    
 }
 
 .titulo h2 {
     pointer-events: none;
     color: white;
     font-size: 75px;
-    width: 1130px;
     margin: 30px auto;
     text-align: center;
 }
+
 
 .caja {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 
 .card {
@@ -377,7 +374,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 .contacto {
 
@@ -413,23 +409,6 @@ html {
     background-size: cover;
     animation: moveBackground 15s infinite linear alternate;
     background-repeat: no-repeat;
-}
-@media only screen and (max-width: 1075px) {
-.iconos-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: purple;
-    margin: 0px 125px 0 125px;
-}
-
-.iconos-container img {
-    height: 100px;
-    width: 100px;
-    margin-right: 20px;
-    margin-bottom: 35px;
-}
 }
 
 @keyframes moveBackground {
@@ -477,6 +456,22 @@ html {
     background-size: cover;
     animation: moveBackground 70s infinite linear alternate;
 }
+@media only screen and (max-width: 1075px) {
+    .iconos-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0px 125px 0 125px;
+    }
+    
+    .iconos-container img {
+        height: 100px;
+        width: 100px;
+        margin-right: 20px;
+        margin-bottom: 35px;
+    }
+    }
 @media (max-width: 986px) {
     nav ul li:nth-child(1){
     display: none;
@@ -513,6 +508,15 @@ html {
     .texto p {
         letter-spacing: 0.5px;
     }
+    .presentacion h1{
+        padding-right: 100px;
+    }
+    .datos h4 {
+        padding-right: 100px;
+    }
+    .texto{
+        font-size: 45px;
+    }
 }
 @media only screen and (max-width: 700px) {
 .texto p {
@@ -527,11 +531,17 @@ html {
         margin: 0px 15px 0 15px;
     }
 }
-@media (max-width: 580px) {
-    .presentacion h1 {
-        font-size: 60px;
-    
+@media (max-width: 645px) {
+    .presentacion h1{
+        padding-right: 100px;
+        font-size: 70px;
     }
+    .datos h4 {
+        padding-right: 125px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 580px) {
     body {
         overflow-x: hidden;
     
@@ -539,7 +549,13 @@ html {
     .texto{
         margin: 15px 15px 0 15px;
     }
+    .presentacion h1{
+        padding-right: 100px;
+        font-size: 60px;
+    }
 }
+
+
 @media (max-width: 513px) {
 .texto p {
     color: #fcfc;
@@ -554,7 +570,6 @@ html {
 }
 @media only screen and (max-width: 507px) {
     .texto p {
-        color: #fcfc;
         letter-spacing: 0px;
         line-height: 25px;
         font-size: 15px;
@@ -564,7 +579,17 @@ html {
         max-width: 100%;
         margin: 0px 15px 0 15px;
         }
+}
+@media (max-width: 470px) {
+    .presentacion h1{
+        padding-right: 100px;
+        font-size: 55px;
     }
+    .datos h4 {
+        padding-right: 300px;
+        font-size: 12.5px;
+    }
+}
 @media (max-width: 462px) {
     .habilidades img {
         height: 70px;
@@ -578,9 +603,26 @@ html {
         margin-bottom: 30px;
     }
 }
+@media (max-width: 445px) {
+    .presentacion h1{
+        padding-right: 100px;
+        font-size: 45px;
+    }
+    .datos h4 {
+        padding-right: 370px;
+        font-size: 11px;
+    }
+    .titulo h2{
+        font-size: 60px;
+    }
+}
 @media (max-width: 435px) {
     .btn {
         display: none;
+}
+.texto {
+
+    font-size: 35px;
 }
 }
 @media (max-width: 380px) {
@@ -594,6 +636,9 @@ html {
     body {
         max-width: 100%;
         overflow-x: hidden;
+    }
+    .titulo h2{
+        font-size: 55px;
     }
 }
 
@@ -614,18 +659,15 @@ html {
             display: inline-block;
             padding: 4px 0.3px;
         }
-        .presentacion h1 {
-            font-size:42px;
-        }
-        .presentacion .datos form h4 {
-            font-size: 12px;
-        }
         body {
             max-width: 100%;
             overflow-x: hidden;
         }
         .texto{
-            font-size: 12px;
+            font-size: 28px;
+        }
+        .titulo h2{
+            font-size: 45px;
         }
 }
 
