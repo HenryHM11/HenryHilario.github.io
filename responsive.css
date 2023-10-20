@@ -1,0 +1,224 @@
+@media only screen and (max-width: 1075px) {
+    .iconos-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0px 125px 0 125px;
+    }
+    
+    .iconos-container img {
+        height: 100px;
+        width: 100px;
+        margin-right: 20px;
+        margin-bottom: 35px;
+    }
+    }
+@media (max-width: 986px) {
+    nav ul li:nth-child(1){
+    display: none;
+    
+}
+    body {
+        overflow-x: hidden;
+}
+}
+@media (max-width: 880px) {
+    nav ul li:nth-child(1),
+    nav ul li:nth-child(2),
+    nav ul li:nth-child(3),
+    nav ul li:nth-child(4) {
+        display: none;
+    }
+    nav {
+        padding: 7px 4.5;
+        height: 75px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .iconos-container {
+        margin: 0px 78px 0 78px;
+    }
+    .card {
+        height: 200px;
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 755px) {
+    .iconos-container {
+        margin: 0px 28px 0 28px;
+    }
+}
+@media only screen and (max-width: 742px) {
+    .texto p {
+        letter-spacing: 0.5px;
+    }
+    .presentacion h1{
+        padding-right: 100px;
+    }
+    .datos h4 {
+        padding-right: 100px;
+    }
+    .texto{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 700px) {
+.texto p {
+    color: #fcfc;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-size: 15px;
+    }
+    .texto {
+        width: 900px;
+        max-width: 100%;
+        margin: 0px 15px 0 15px;
+    }
+}
+@media (max-width: 645px) {
+    .presentacion h1{
+        padding-right: 100px;
+        font-size: 70px;
+    }
+    .datos h4 {
+        padding-right: 125px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 580px) {
+    body {
+        overflow-x: hidden;
+    
+    }
+    .texto{
+        margin: 15px 15px 0 15px;
+    }
+    .presentacion h1{
+        padding-right: 100px;
+        font-size: 60px;
+    }
+}
+@media (max-width: 513px) {
+.card {
+    height: 160px;
+    width: 160px;
+}
+}
+@media (max-width: 513px) {
+.texto p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 45px;
+    text-align: center;
+    }
+    body {
+        overflow-x: hidden;
+}
+}
+@media only screen and (max-width: 507px) {
+    .texto p {
+        letter-spacing: 0px;
+        line-height: 25px;
+        font-size: 15px;
+        }
+    .texto {
+        width: 900px;
+        max-width: 100%;
+        margin: 0px 15px 0 15px;
+        }
+}
+@media (max-width: 470px) {
+    .presentacion h1{
+        padding-right: 100px;
+        font-size: 55px;
+    }
+    .datos h4 {
+        padding-right: 300px;
+        font-size: 12.5px;
+    }
+}
+@media (max-width: 462px) {
+    .habilidades img {
+        height: 70px;
+        width: 70px;
+        margin-right: 17px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .iconos-container > img {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 445px) {
+    .presentacion h1{
+        padding-right: 100px;
+        font-size: 45px;
+    }
+    .datos h4 {
+        padding-right: 370px;
+        font-size: 11px;
+    }
+    .titulo h2{
+        font-size: 60px;
+    }
+}
+@media (max-width: 435px) {
+    .btn {
+        display: none;
+}
+.texto {
+
+    font-size: 35px;
+}
+}
+@media (max-width: 380px) {
+    .logo {
+        color:white;
+        letter-spacing: 1px;
+    }
+    .btn {
+        display: none;
+    }
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .titulo h2{
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 370px) {
+        .habilidades {
+            padding: 20px;
+        }
+        .iconos-container img {
+            max-width: 95px;
+            margin: 0;
+        }
+    
+        .iconos-container > img {
+            margin-bottom: 20px;
+        }
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 4px 0.3px;
+        }
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        .texto{
+            font-size: 28px;
+        }
+        .titulo h2{
+            font-size: 45px;
+        }
+}
+
+
