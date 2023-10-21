@@ -234,107 +234,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0px 100px 0px;
-}
-.caja {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    padding: 50px 0px 30px 0px;
 }
 
-.card {
-    height: 240px;
-    width: 240px;
-    padding: 10px 10px;
-    background: rgb(255, 244, 74);
-    border-radius: 10px;
-    margin: 10px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    transition: opacity 0.9s;
-}
 
-.card i {
-    font-size: 50px;
-    display: block;
-    text-align: center;
-    margin: 25px 0px;
-    color: rgb(255, 247, 122);
-    
-}
-.card:hover {
-    opacity: 1;
-}
-.card:hover .overlay {
-    opacity: 1;
-    
-}
-.image-container {
-    position: relative;
-    display: inline-block;
-    border-radius: 0;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    opacity: 0;
-    transition: opacity 0.3s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 4px;
-    background-image: url(/img/bgpower.png);
-    background-size: cover;
-}
-.overlay .text {
-    background-color: rgb(255, 247, 122, 0.3);
-    color: black;
-    border-radius: 50px;
-    padding: 8px 20px;
-    margin-bottom: 10px;
-}
-.overlay .text:last-child {
-    margin-bottom: 0;
-}
-.text {
-    margin-bottom: 10px;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
-}
-
-.text:last-child {
-    margin-bottom: 0;
-}
-
-.ima {
-    max-width: 100%;
-    height: auto;
-}
-
-.text:hover {
-    
-    background-color: transparent;
-    border: 2px solid rgb(0, 134, 166);
-    cursor: pointer;
-    color: rgb(0, 134, 166);
-}
 
 .contacto {
     display: flex;
