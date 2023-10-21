@@ -1,3 +1,65 @@
+.cv {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(12, 162, 199);
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 50px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 77px 12px rgba(0,0,0,0.13);
+    -webkit-box-shadow: 0px 0px 77px 12px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 0px 77px 12px rgba(0,0,0,0.13);
+    padding: 0 25px;
+}
+
+.cv:before, button:after {
+    content: "";
+    background: rgb(165, 0, 172);
+    height: 50%;
+    width: 0;
+    position: absolute;
+    transition: .3s cubic-bezier(.785,.135,.15,.86);
+    -webkit-transition: .3s cubic-bezier(.785,.135,.15,.86);
+    z-index: -1;
+}
+
+.cv::before {
+    top: 0;
+    left: 0;
+    right: auto;
+}
+
+.cv:after {
+    bottom: 0;
+    right: 0;
+    left: auto;
+}
+
+.cv:hover {
+    color: #202020;
+    background-color: rgb(12, 162, 199);
+}
+
+.cv:hover:before {
+    width: 100%;
+    right: 0;
+    left: auto;
+}
+
+.cv:hover::after {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+  
 .proyecto1 {
     background: #191919;
     background-size: cover;
@@ -231,4 +293,43 @@
     );
     transition: all 0.475s;
 }
+/* === removing default button style ===*/
+.vars {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    
+}
 
+.vars {
+    --border-right: 3px;
+    --text-stroke-color: rgb(255, 255, 255);
+    --animation-color: rgb(0, 134, 166);
+    --fs-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+.hover-text {
+    position: absolute;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+}
+.vars:hover .hover-text {
+    width: 100%;
+
+}

@@ -1,4 +1,7 @@
 /*aa*/
+body{
+    background: #191919;
+}
 .fondo1{
     background-image: url(/img/op.png);
     background-size: cover;

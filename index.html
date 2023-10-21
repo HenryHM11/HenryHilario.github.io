@@ -35,10 +35,22 @@
         <nav id="navbar">
             <h2 class="logo"> Portafo<span>lio</span></h2>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>          
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#proyecto">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio"><button class="vars" data-text="Awesome">
+                    <span class="actual-text">&nbsp;Inicio&nbsp;</span>
+                    <span aria-hidden="true" class="hover-text">&nbsp;inicio&nbsp;</span>
+                </button></a></li>          
+                <li><a href="#habilidades"><button class="vars" data-text="Awesome">
+                    <span class="actual-text">&nbsp;Habilidades&nbsp;</span>
+                    <span aria-hidden="true" class="hover-text">&nbsp;Habilidades&nbsp;</span>
+                </button></a></li>
+                <li><a href="#proyecto"><button class="vars" data-text="Awesome">
+                    <span class="actual-text">&nbsp;Proyectos&nbsp;</span>
+                    <span aria-hidden="true" class="hover-text">&nbsp;Proyectos&nbsp;</span>
+                </button></a></li>
+                <li><a href="#contacto"><button class="vars" data-text="Awesome">
+                    <span class="actual-text">&nbsp;Contacto&nbsp;</span>
+                    <span aria-hidden="true" class="hover-text">&nbsp;Contacto&nbsp;</span>
+                </button></a></li>
                 <a href="https://www.linkedin.com/in/henryhm/" target="_blank">
                     <span class="fa-container">
                         <i class="fab fa-linkedin"></i>
@@ -50,7 +62,9 @@
                     </span>
                 </a>
             </ul>
-            <a href="" target="_blank" class="btn">Curriculum</a>
+            <button class="cv" id="cv">
+                Curriculum
+              </button>
         </nav>
     </div>
         <div class="presentacion" >
@@ -92,33 +106,28 @@
         <img src="/img/excel.png">
     </div>
 </div>
-    <section class="proyecto" id="proyecto">
-            <div class="titulo" >
-                <h2>Proyectos</h2>
-            </div>
-        </section>
-        <section class="proyecto1" id="proyecto1">
-        <div class="carda-container">
-            <div class="carda">
-                <div class="content">
-                <div class="back">
-                    <div class="back-content">
-                    
-                        <img src="img/powerbi.png" class="pw">
-                    </div>
+<section class="proyecto" id="proyecto">
+    <div class="titulo" >
+        <h2>Proyectos</h2>
+    </div>
+</section>
+
+<section class="proyecto1" id="proyecto1">
+<div class="carda-container">
+    <div class="carda">
+        <div class="content">
+            <div class="back">
+                <div class="back-content">
+                    <img src="img/powerbi.png" class="pw">
                 </div>
-                <div class="front">
-                    
-                    <div class="im">
-                    <div class="circle">
-                    </div>
-                    <div class="circle" id="right">
-                    </div>
-                    <div class="circle" id="bottom">
-                    </div>
-                    </div>
-                    <div class="front-content">
-                        
+            </div>
+            <div class="front">                 
+                <div class="im">
+                    <div class="circle"></div>                   
+                    <div class="circle" id="right"></div>                  
+                    <div class="circle" id="bottom"></div> 
+                </div>                                        
+                    <div class="front-content">                       
                     <small class="badge">Power Bi</small>
                     <img src="proyect/ventasvideojuegos.png" class="imgborde">
                     <div class="description" >
@@ -138,28 +147,22 @@
                 </div>
                 </div>
             </div>
-            <div class="carda-container">
-                <div class="carda">
-                    <div class="content">
-                    <div class="back">
-                        <div class="back-content">
-                        
-                            <img src="img/powerbi.png" class="pw">
-                        </div>
-                    </div>
-                    <div class="front">
-                        
-                        <div class="im">
-                        <div class="circle">
-                        </div>
-                        <div class="circle" id="right">
-                        </div>
-                        <div class="circle" id="bottom">
-                        </div>
-                        </div>
-                        <div class="front-content">
-                            
-                        <small class="badge">Power Bi</small>
+<div class="carda-container">
+    <div class="carda">
+        <div class="content">
+            <div class="back">
+                <div class="back-content">                       
+                    <img src="img/powerbi.png" class="pw">
+                </div>
+            </div>
+            <div class="front">                       
+                <div class="im">
+                    <div class="circle"></div>                       
+                    <div class="circle" id="right"></div>                       
+                    <div class="circle" id="bottom"></div>                       
+                </div>
+                <div class="front-content">                           
+                    <small class="badge">Power Bi</small>
                         <img src="proyect/empleados.png" class="imgborde">
                         <div class="description" >
                             <a target="_blank" href="https://app.powerbi.com/view?r=eyJrIjoiNzM0NWM0MjEtOWEyNC00ODNhLTk3MmQtOWUwYWRkYTRkNTU2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSectionb031a5e30be2dbe460ac">
@@ -173,72 +176,55 @@
                                 </button>
                             </a>
                         </div>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="carda-container">
-                    <div class="carda">
-                        <div class="content">
-                        <div class="back">
-                            <div class="back-content">
-                            
-                                <img src="img/powerbi.png" class="pw">
-                            </div>
-                        </div>
-                        <div class="front">
-                            
-                            <div class="im">
-                            <div class="circle">
-                            </div>
-                            <div class="circle" id="right">
-                            </div>
-                            <div class="circle" id="bottom">
-                            </div>
-                            </div>
-                            <div class="front-content">
-                                
-                            <small class="badge">Power Bi</small>
-                            <img src="proyect/poblacion.png" class="imgborde">
-                            <div class="description" >
-                                <a target="_blank" href="https://app.powerbi.com/view?r=eyJrIjoiZjBkMjQyMTUtOGFhOC00OTkyLTlmMjQtMGZjYzcxYWQ3ZjRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9">
-                                <button class="button" >
-                                    <span class="button-content">Vista previa </span>
-                                </button>
-                                </a>
-                                <a href="proyect/poblacion.pbix" >
-                                    <button class="button" >
-                                        <span class="button-content">Descargar </span>
-                                    </button>
-                                </a>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                        </div>
-                    </div>
-        </section>
-            </div>
-            
                 </div>
             </div>
         </div>
-
-    <div class="contacto" id="contacto">
-        <h2>Contácto</h2>
-        <p>Si quiere comunicarse conmigo, envieme un mensaje</p>
-        <p>Información:</p>
-        <p><strong>Celular: <i class="fa-brands fa-whatsapp"></i></strong> 922486672</p>
-        <p><strong>Email:</strong> mh498180@gmail.com</p>
     </div>
+</div>
 
+<div class="carda-container">
+    <div class="carda">
+        <div class="content">
+            <div class="back">
+                <div class="back-content">                           
+                <img src="img/powerbi.png" class="pw">
+                </div>
+            </div>
+            <div class="front">                          
+                <div class="im">
+                    <div class="circle"></div>                          
+                    <div class="circle" id="right"></div>                           
+                    <div class="circle" id="bottom"></div>                         
+                </div>
+            <div class="front-content">                               
+                <small class="badge">Power Bi</small>
+                <img src="proyect/poblacion.png" class="imgborde">
+                    <div class="description" >
+                    <a target="_blank" href="https://app.powerbi.com/view?r=eyJrIjoiZjBkMjQyMTUtOGFhOC00OTkyLTlmMjQtMGZjYzcxYWQ3ZjRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9">
+                        <button class="button" >
+                            <span class="button-content">Vista previa </span>
+                        </button>
+                    </a>
+                    <a href="proyect/poblacion.pbix" >
+                        <button class="button" >
+                            <span class="button-content">Descargar </span>
+                                </button>
+                    </a>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
-
-        
-
-
-    <script src="deco.js"></script>
-    
+<div class="contacto" id="contacto">
+    <h2>Contácto</h2>
+    <p>Si quiere comunicarse conmigo, envieme un mensaje</p>
+    <p>Información:</p>
+    <p><strong>Celular: <i class="fa-brands fa-whatsapp"></i></strong> 922486672</p>
+    <p><strong>Email:</strong> mh498180@gmail.com</p>
+</div>
+<script src="deco.js"></script>
 </body>
 </html>
