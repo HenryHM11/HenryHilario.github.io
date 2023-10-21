@@ -6,6 +6,8 @@
     justify-content: center;
     align-items: center;
     padding: 0px 0px 30px 0px;
+    display: flex; /* Utiliza Flexbox */
+    flex-wrap: wrap;
 }
 .carda {
     overflow: visible;
@@ -20,9 +22,9 @@
     transition: transform 300ms;
     box-shadow: 0px 0px 10px 1px #000000ee;
     border-radius: 5px;
-  }
-  
-  .front, .back {
+}
+
+.front, .back {
     background-color: #151515;
     position: absolute;
     width: 100%;
@@ -31,18 +33,18 @@
     -webkit-backface-visibility: hidden;
     border-radius: 5px;
     overflow: hidden;
-  }
-  
-  .back {
+}
+
+.back {
     width: 100%;
     height: 100%;
     justify-content: center;
     display: flex;
     align-items: center;
     overflow: hidden;
-  }
-  
-  .back::before {
+}
+
+.back::before {
     position: absolute;
     content: ' ';
     display: block;
@@ -50,9 +52,9 @@
     height: 160%;
     background: linear-gradient(90deg, transparent, #ff9966, #ff9966, #ff9966, #ff9966, transparent);
     animation: rotation_481 5000ms infinite linear;
-  }
-  
-  .back-content {
+}
+
+.back-content {
     position: absolute;
     width: 99%;
     height: 99%;
@@ -64,28 +66,27 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-  }
-  
-  .carda:hover .content {
+}
+
+.carda:hover .content {
     transform: rotateY(180deg);
-  }
-  
-  @keyframes rotation_481 {
+}
+
+@keyframes rotation_481 {
     0% {
-      transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
     }
-  
     0% {
-      transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
     }
-  }
-  
-  .front {
+}
+
+.front {
     transform: rotateY(180deg);
     color: white;
-  }
-  
-  .front .front-content {
+}
+
+.front .front-content {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -174,6 +175,7 @@
     gap: 20px; 
     flex-wrap: wrap;
     margin-left: 15px;
+    margin-bottom: 15px;
 }
 .imgborde{
     border-radius: 10px;
@@ -204,15 +206,15 @@
 .button:hover::before {
     transform: scaleX(1);
     color: #fff;
-  }
-  
-  .button-content {
+}
+
+.button-content {
     position: relative;
     z-index: 1;
     color: #fff;
-  }
-  
-  .button::before {
+}
+
+.button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -223,10 +225,10 @@
     height: inherit;
     border-radius: inherit;
     background: linear-gradient(
-      82.3deg,
-      rgba(150, 93, 233, 1) 10.8%,
-      rgba(99, 88, 238, 1) 94.3%
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
     );
     transition: all 0.475s;
-  }
+}
 
