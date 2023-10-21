@@ -49,6 +49,9 @@
     .iconos-container {
         margin: 0px 28px 0 28px;
     }
+    .loader {
+        display: none;
+    }
 }
 @media only screen and (max-width: 742px) {
     .texto p {
