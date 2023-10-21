@@ -252,11 +252,8 @@ html {
     color: whitesmoke;
     position: relative;
     width: 100%;
-    height: 60vh; 
     overflow: hidden;
-    background-image: url(/img/blu.png);
-    background-size: cover;
-    animation: moveBackground 70s infinite linear alternate;
+    z-index: 1;
 }
 
 .contacto h2 {
