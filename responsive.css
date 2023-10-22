@@ -103,6 +103,12 @@
         font-size: 60px;
     }
 }
+@media (max-width: 565px) {
+.carda {
+    width: 170px;
+    height: 234px;
+}
+}
 @media (max-width: 513px) {
 .card {
     height: 160px;
