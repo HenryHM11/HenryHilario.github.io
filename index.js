@@ -10,6 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+window.addEventListener("load", function() {
+    if (window.location.hash !== "#inicio") {
+        window.location.href = "#inicio";
+    }
+});
 window.sr = ScrollReveal();
     sr.reveal('.presentacion',{
         duration: 3000,
