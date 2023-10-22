@@ -5,13 +5,12 @@ body{
 .fondo1{
     background-image: url(/img/op.webp);
     background-size: cover;
-    animation: moveBackground 15s infinite linear alternate;
+    animation: moveBackground 30s infinite linear alternate;
     background-repeat: no-repeat;
 }
 
 .hen {
     background-size: cover;
-    animation: moveBackground 110s infinite linear alternate;
     pointer-events: none;
     height: 100vh;
     width: 100%;
