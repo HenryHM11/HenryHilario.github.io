@@ -3,7 +3,7 @@ body{
     background: #191919;
 }
 .fondo1{
-    background-image: url(/img/op.png);
+    background-image: url(/img/op.webp);
     background-size: cover;
     animation: moveBackground 15s infinite linear alternate;
     background-repeat: no-repeat;
