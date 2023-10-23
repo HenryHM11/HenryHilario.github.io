@@ -49,6 +49,11 @@ sr.reveal('.proyecto1',{
     origin:'top',
     distance: '-100px',
 });
+sr.reveal('.proyecto2',{
+    duration: 3000,
+    origin:'top',
+    distance: '-100px',
+});
 sr.reveal('.contacto',{
     duration: 3000,
     origin:'left',

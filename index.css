@@ -207,6 +207,8 @@ html {
     align-items: center;
     flex-wrap: wrap;
     margin: 0px 125px 0 125px;
+    align-items: center; 
+
 }
 .iconos-container img {
     height: 130px;
