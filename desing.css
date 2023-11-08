@@ -263,8 +263,8 @@
 .button {
     position: relative;
     overflow: hidden;
-    height: 3rem;
-    padding: 0 2rem;
+    height: 45px;
+    padding: 10px 15px 10px 15px;
     border-radius: 1.5rem;
     background: #3d3a4e;
     background-size: 400%;

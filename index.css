@@ -3,9 +3,9 @@ body{
     background: #191919;
 }
 .fondo1{
-    background-image: url(/img/op.webp);
+    background-image: url(/img/op_11zon.webp);
     background-size: cover;
-    animation: moveBackground 30s infinite linear alternate;
+    animation: moveBackground 20s infinite linear alternate;
     background-repeat: no-repeat;
 }
 
@@ -18,9 +18,12 @@ body{
 }
 
 @keyframes moveBackground {
-    0% { background-position: 0 0; }
-    50% { background-position: 0 100%; }
-    100% { background-position: 0 0; }
+    0% {
+        background-position: center top, center left;
+    }
+    100% {
+        background-position: center bottom, center right;
+    }
 }
 
 h1, p {

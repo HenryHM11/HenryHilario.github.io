@@ -24,6 +24,12 @@
         overflow-x: hidden;
 }
 }
+@media (max-width: 1000px) {
+    .fondo1{
+        background-attachment: fixed;
+        animation: moveBackground 50s infinite linear alternate;
+    }
+}
 @media (max-width: 945px) {
     nav ul li:nth-child(1),
     nav ul li:nth-child(2),
