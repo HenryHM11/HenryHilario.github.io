@@ -1,6 +1,4 @@
-.loader {
-    display: none;
-}
+
 @media only screen and (max-width: 1075px) {
     .iconos-container {
         display: flex;
@@ -56,54 +54,11 @@
         display: none;
     }
 }
-@media only screen and (max-width: 742px) {
-    .texto p {
-        letter-spacing: 0.5px;
-    }
-    .presentacion h1{
-        padding-right: 100px;
-    }
-    .datos h4 {
-        padding-right: 100px;
-    }
-    .texto{
-        font-size: 45px;
-    }
-}
-@media only screen and (max-width: 700px) {
-.texto p {
-    color: #fcfc;
-    letter-spacing: 0.5px;
-    line-height: 25px;
-    font-size: 15px;
-    }
-    .texto {
-        width: 900px;
-        max-width: 100%;
-        margin: 0px 15px 0 15px;
-    }
-}
-@media (max-width: 645px) {
-    .presentacion h1{
-        padding-right: 100px;
-        font-size: 70px;
-    }
-    .datos h4 {
-        padding-right: 125px;
-        font-size: 15px;
-    }
-}
+
 @media (max-width: 580px) {
     body {
         overflow-x: hidden;
     
-    }
-    .texto{
-        margin: 15px 15px 0 15px;
-    }
-    .presentacion h1{
-        padding-right: 100px;
-        font-size: 60px;
     }
 }
 @media (max-width: 565px) {
@@ -118,40 +73,6 @@
     width: 160px;
 }
 }
-@media (max-width: 513px) {
-.texto p {
-    color: #fcfc;
-    letter-spacing: 1px;
-    line-height: 25px;
-    margin-bottom: 45px;
-    text-align: center;
-    }
-    body {
-        overflow-x: hidden;
-}
-}
-@media only screen and (max-width: 507px) {
-    .texto p {
-        letter-spacing: 0px;
-        line-height: 25px;
-        font-size: 15px;
-        }
-    .texto {
-        width: 900px;
-        max-width: 100%;
-        margin: 0px 15px 0 15px;
-        }
-}
-@media (max-width: 470px) {
-    .presentacion h1{
-        padding-right: 100px;
-        font-size: 55px;
-    }
-    .datos h4 {
-        padding-right: 300px;
-        font-size: 12.5px;
-    }
-}
 @media (max-width: 462px) {
     .habilidades img {
         height: 70px;
@@ -165,26 +86,10 @@
         margin-bottom: 30px;
     }
 }
-@media (max-width: 445px) {
-    .presentacion h1{
-        padding-right: 100px;
-        font-size: 45px;
-    }
-    .datos h4 {
-        padding-right: 370px;
-        font-size: 11px;
-    }
-    .titulo h2{
-        font-size: 60px;
-    }
-}
+
 @media (max-width: 435px) {
     .cv {
         display: none;
-}
-.texto {
-
-    font-size: 35px;
 }
 }
 @media (max-width: 380px) {
@@ -198,9 +103,6 @@
     body {
         max-width: 100%;
         overflow-x: hidden;
-    }
-    .titulo h2{
-        font-size: 55px;
     }
 }
 
@@ -224,12 +126,6 @@
         body {
             max-width: 100%;
             overflow-x: hidden;
-        }
-        .texto{
-            font-size: 28px;
-        }
-        .titulo h2{
-            font-size: 45px;
         }
 }
 

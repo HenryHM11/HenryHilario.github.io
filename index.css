@@ -96,6 +96,7 @@ nav ul li a:hover {
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
+    width: 80%;
 }
 
 h1 {
@@ -118,7 +119,6 @@ h4 {
 
 .datos form {
     top: 15px;
-    width: 700px;
     max-width: 100%;
     position: relative;
 }
@@ -130,6 +130,7 @@ h4 {
     background-position: center;
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .habilidades img {
@@ -206,8 +207,9 @@ html {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0px 125px 0 125px;
+    margin: 0px 125px 0px 125px;
     align-items: center; 
+    padding-bottom: 50px;
 
 }
 .iconos-container img {
@@ -224,7 +226,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0px 30px 0px;
+    padding: 0px 0px 30px 0px;
 }
 
 
@@ -244,9 +246,9 @@ html {
 }
 
 .contacto h2 {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .contacto p {
