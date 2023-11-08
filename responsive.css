@@ -26,8 +26,16 @@
 }
 @media (max-width: 1000px) {
     .fondo1{
-        background-attachment: fixed;
-        animation: moveBackground 50s infinite linear alternate;
+
+        animation: moveBackground 30s infinite linear alternate;
+    }
+    @keyframes moveBackground {
+        0% {
+            background-position: center left;
+        }
+        100% {
+            background-position:  center right;
+        }
     }
 }
 @media (max-width: 945px) {
