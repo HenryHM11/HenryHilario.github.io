@@ -55,7 +55,8 @@ nav {
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(3.5px);
     border-bottom: 0.5px solid #2c2c2c;
-
+    user-select: none;
+    cursor: default;
 }
 
 .logo {
@@ -100,6 +101,8 @@ nav ul li a:hover {
     left: 8%;
     transform: translateY(-50%);
     width: 60%;
+    user-select: none;
+    cursor: default;
 }
 
 h1 {
