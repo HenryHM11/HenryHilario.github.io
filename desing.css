@@ -742,66 +742,59 @@
 .tr-17:hover ~ #cardd {
     transition: 125ms ease-in-out;
     transform: rotateX(-10deg) rotateY(-5deg) rotateZ(0deg);
-  }
-  
-  .tr-18:hover ~ #cardd {
+}
+
+.tr-18:hover ~ #cardd {
     transition: 125ms ease-in-out;
     transform: rotateX(-10deg) rotateY(0deg) rotateZ(0deg);
-  }
-  
-  .tr-19:hover ~ #cardd {
+}
+
+.tr-19:hover ~ #cardd {
     transition: 125ms ease-in-out;
     transform: rotateX(-10deg) rotateY(5deg) rotateZ(0deg);
-  }
-  
-  .tr-20:hover ~ #cardd {
+}
+
+.tr-20:hover ~ #cardd {
     transition: 125ms ease-in-out;
     transform: rotateX(-10deg) rotateY(10deg) rotateZ(0deg);
-  }
-  
-  .tr-21:hover ~ #cardd {
+}
+
+.tr-21:hover ~ #cardd {
     transition: 125ms ease-in-out;
     transform: rotateX(-20deg) rotateY(-10deg) rotateZ(0deg);
-  }
-  
-  .tr-22:hover ~ #cardd {
+}
+
+.tr-22:hover ~ #cardd {
     transition: 125ms ease-in-out;
     transform: rotateX(-20deg) rotateY(-5deg) rotateZ(0deg);
-  }
-  
-  .tr-23:hover ~ #cardd {
+}
+
+.tr-23:hover ~ #cardd {
     transition: 125ms ease-in-out;
     transform: rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
-  }
-  
-  .tr-24:hover ~ #cardd {
+}
+
+.tr-24:hover ~ #cardd {
     transition: 125ms ease-in-out;
     transform: rotateX(-20deg) rotateY(5deg) rotateZ(0deg);
-  }
-  
-  .tr-25:hover ~ #cardd {
+}
+
+.tr-25:hover ~ #cardd {
     transition: 125ms ease-in-out;
     transform: rotateX(-20deg) rotateY(10deg) rotateZ(0deg);
-  }
-  
-  .noselect {
+}
+
+.noselect {
     -webkit-touch-callout: none;
-     /* iOS Safari */
     -webkit-user-select: none;
-     /* Safari */
-     /* Konqueror HTML */
     -moz-user-select: none;
-     /* Old versions of Firefox */
     -ms-user-select: none;
-     /* Internet Explorer/Edge */
     user-select: none;
-     /* Non-prefixed version, currently
-                                      supported by Chrome, Edge, Opera and Firefox */
-  }
+}
 .itemh{
     padding: 8%;
     width: 100%;
 }
-.itemh svg{
+.itemh img{
     margin: 15px;
 }
