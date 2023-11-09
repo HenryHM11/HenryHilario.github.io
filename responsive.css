@@ -124,16 +124,15 @@
         margin-bottom: 30px;
     }
 }
-
+@media (max-width: 443px) {
+    .containerh{
+    height: 350px;
+    }
+}
 @media (max-width: 435px) {
     .cv {
         display: none;
 }
-}
-@media (max-width: 426px) {
-    .containerh{
-    height: 350px;
-    }
 }
 @media (max-width: 400px) {
     .titulo h2{
@@ -183,8 +182,8 @@
 }
 
 
-@media (max-width: 344px) {
+@media (max-width: 358px) {
     .containerh{
-    height: 500px;
+    height: 520px;
     }
 }
