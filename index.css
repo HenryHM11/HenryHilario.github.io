@@ -1,4 +1,3 @@
-/*aa*/
 body{
     background-color: #141414;
 }
@@ -9,9 +8,7 @@ body{
     background-repeat: no-repeat;
 }
 .fondo2{
-    background: radial-gradient(circle, rgba(90, 90, 90, 0.3) 0%, transparent 50%);
-
-
+    background: radial-gradient(circle, rgba(88, 54, 54, 0.3) 10%, transparent 40%);
 }
 
 .hen {
@@ -244,7 +241,6 @@ html {
 .contacto h2 {
     margin-bottom: 50px;
     font-size: 50px;
-    margin-bottom: 50px;
 }
 
 .contacto p {

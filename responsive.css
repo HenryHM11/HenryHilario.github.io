@@ -154,6 +154,20 @@
         max-width: 100%;
         overflow-x: hidden;
     }
+    .carda {
+        overflow: visible;
+        width: 140px;
+        height: 210px;
+    }
+    .description {
+
+        width: 86%;
+    }
+    .carda2 {
+        overflow: visible;
+        width: 140px;
+        height: 210px;
+    }
 }
 
 @media (max-width: 370px) {
