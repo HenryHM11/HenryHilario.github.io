@@ -34,7 +34,7 @@ sr.reveal('.habilidades',{
     origin:'bottom',
     distance: '-100px',
 });
-sr.reveal('.iconos-container',{
+sr.reveal('.containerh',{
     duration: 3000,
     origin:'top',
     distance: '-100px',
@@ -59,5 +59,6 @@ sr.reveal('.contacto',{
     origin:'left',
     distance: '100px',
 });
+
 
 //

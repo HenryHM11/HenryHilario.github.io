@@ -1,12 +1,17 @@
 /*aa*/
 body{
-    background: #191919;
+    background-color: #141414;
 }
 .fondo1{
     background-image: url(/img/op_11zon.webp);
     background-size: cover;
     animation: moveBackground 20s infinite linear alternate;
     background-repeat: no-repeat;
+}
+.fondo2{
+    background: radial-gradient(circle, rgba(90, 90, 90, 0.3) 0%, transparent 50%);
+
+
 }
 
 .hen {
@@ -210,25 +215,8 @@ html {
 .habilidades-img:last-child {
     margin-right: 0;
 }
-.iconos-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0px 125px 0px 125px;
-    align-items: center; 
-    padding-bottom: 50px;
-
-}
-.iconos-container img {
-    height: 130px;
-    width: 130px;
-    margin-right: 35px;
-    margin-bottom: 35px;
-}
 
 .proyecto {
-    background: #191919;
     background-size: cover;
     width: 100%;
     display: flex;
