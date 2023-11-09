@@ -1,12 +1,3 @@
-window.addEventListener("load", function () {
-    setTimeout(function () {
-        window.scrollTo(0, 0);
-    }, 0);
-});
-
-window.addEventListener("beforeunload", function () {
-    window.scrollTo(0, 0);
-});
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -24,11 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 window.sr = ScrollReveal();
-sr.reveal('.presentacion',{
-    duration: 3000,
-    origin:'left',
-    distance: '-100px',
-});
+
 sr.reveal('.habilidades',{
     duration: 3000,
     origin:'bottom',
