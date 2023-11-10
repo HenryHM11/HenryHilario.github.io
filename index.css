@@ -1,6 +1,16 @@
 body{
     background-color: #141414;
 }
+.body ::-webkit-scrollbar{
+    width: 15px;
+}
+.body ::-webkit-scrollbar-thumb{
+    background: #141414;
+    border-radius: 8px;
+}
+.body::-webkit-scrollbar-thumb:hover{
+    background: #000000;
+}
 .fondo1{
     background-image: url(/img/op_11zon.webp);
     background-size: cover;
@@ -105,7 +115,7 @@ nav ul li a:hover {
     width: 60%;
     user-select: none;
     cursor: default;
-    
+
 }
 
 h1 {
