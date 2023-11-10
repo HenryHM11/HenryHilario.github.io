@@ -1,15 +1,16 @@
 body{
     background-color: #141414;
 }
-.body ::-webkit-scrollbar{
-    width: 15px;
+::-webkit-scrollbar {
+    width: 9px;
 }
-.body ::-webkit-scrollbar-thumb{
-    background: #141414;
-    border-radius: 8px;
+::-webkit-scrollbar-thumb {
+    background-color: #5a6168; /* Color del pulgar (similar a GPT-3) */
+    border-radius: 8px; /* Bordes redondeados del pulgar */
 }
-.body::-webkit-scrollbar-thumb:hover{
-    background: #000000;
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #44494e; /* Cambia el color al hacer hover */
 }
 .fondo1{
     background-image: url(/img/op_11zon.webp);
