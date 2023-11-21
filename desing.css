@@ -558,7 +558,12 @@
     transition: 200ms;
     border-radius: 20px;
 }
-
+#cardd::before {
+    content: "";
+    position: absolute;
+    filter: blur(10px); /* Ajusta el valor según tu preferencia de desenfoque */
+    border: #771a1a solid 7px;
+}
 .tr-1 {
     grid-area: tr-1;
 }
@@ -791,6 +796,7 @@
     -ms-user-select: none;
     user-select: none;
 }
+
 .itemh{
     padding: 8%;
     width: 100%;
