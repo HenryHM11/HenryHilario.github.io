@@ -106,17 +106,26 @@ nav ul li a:hover {
     cursor: default;
     pointer-events: none;
 }
-
+.anime{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin-right: 8%;
+}
+.anime img{
+    width:400px;
+    height:400px;
+}
 
 .presentacion {
     position: absolute;
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
-    width: 60%;
+    width: 50%;
     user-select: none;
     cursor: default;
-
 }
 
 h1 {

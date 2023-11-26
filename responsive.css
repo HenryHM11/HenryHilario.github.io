@@ -56,6 +56,11 @@
         margin: 0px 78px 0 78px;
     }
 }
+@media (max-width:930px) {
+    .anime{
+        display: none;
+    }
+}
 @media (max-width: 875px) {
 .presentacion {
     width: 90%;
