@@ -27,7 +27,7 @@ window.sr = ScrollReveal();
 
 sr.reveal('.habilidades',{
     duration: 3000,
-    origin:'bottom',
+    origin:'top',
     distance: '-100px',
 });
 sr.reveal('.containerh',{
@@ -37,7 +37,7 @@ sr.reveal('.containerh',{
 });
 sr.reveal('.titulo',{
     duration: 3000,
-    origin:'bottom',
+    origin:'top',
     distance: '-100px',
 });
 sr.reveal('.proyecto1',{
