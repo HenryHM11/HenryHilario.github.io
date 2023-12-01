@@ -100,14 +100,14 @@ nav ul li a:hover {
 }
 .anime{
     position: absolute;
-    top: 50%;
+    top: 60%;
     right: 0;
     transform: translateY(-50%);
     margin-right: 8%;
 }
 .anime img{
-    width:400px;
-    height:400px;
+    width:430px;
+    height:430px;
 }
 
 .presentacion {
@@ -279,15 +279,12 @@ html {
     line-height: 40px;
     transition: background-color 0.3s, border-color 0.3s;
     color: white;
-    flex-direction: column;
     align-items: center;
     padding: 0;
-    justify-content: center;
-    text-decoration: none;
+
 }
 .fa-container i {
     font-size: 20px;
-    text-decoration: none;
 }
 
 .fa-container:hover {

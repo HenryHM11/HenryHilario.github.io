@@ -1,5 +1,22 @@
 
+
+@media (max-width: 1209px) {
+    nav ul li:nth-child(1){
+    display: none;
+    
+}
+    body {
+        overflow-x: hidden;
+}
+}
 @media only screen and (max-width: 1075px) {
+    .iconos-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0px 125px 0 125px;
+    }
     .iconos-container {
         display: flex;
         justify-content: center;
@@ -14,17 +31,32 @@
         margin-right: 20px;
         margin-bottom: 35px;
     }
-    }
-@media (max-width: 1059px) {
-    nav ul li:nth-child(1){
-    display: none;
     
+    .iconos-container img {
+        height: 100px;
+        width: 100px;
+        margin-right: 20px;
+        margin-bottom: 35px;
+    }
+@media (max-width: 1050px) {
 }
-    body {
-        overflow-x: hidden;
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px 0.3px;
 }
+nav ul li:nth-child(1),
+    nav ul li:nth-child(2),
+    nav ul li:nth-child(3),
+    nav ul li:nth-child(4) {
+        display: none;
+    }
+nav {
+    padding: 7px 4.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-@media (max-width: 1000px) {
+
     .fondo1{
 
         animation: moveBackground 30s infinite linear alternate;
@@ -37,36 +69,21 @@
             background-position:  center right;
         }
     }
-}
-@media (max-width: 945px) {
-    nav ul li:nth-child(1),
-    nav ul li:nth-child(2),
-    nav ul li:nth-child(3),
-    nav ul li:nth-child(4) {
-        display: none;
-    }
-    nav {
-        padding: 7px 4.5;
-        height: 75px;
-    }
     body {
         overflow-x: hidden;
     }
     .iconos-container {
         margin: 0px 78px 0 78px;
     }
-}
-@media (max-width:930px) {
     .anime{
         display: none;
     }
-}
-@media (max-width: 875px) {
-.presentacion {
-    width: 90%;
+    .presentacion {
+        width: 90%;
+    }
 }
 
-}
+
 @media only screen and (max-width: 755px) {
     .iconos-container {
         margin: 0px 28px 0 28px;
@@ -103,7 +120,9 @@
     height: 160px;
     width: 160px;
 }
-
+.cv {
+    display: none;
+}
 .texto h5 {
     letter-spacing: 1px;
     font-size: 17px;
@@ -137,11 +156,7 @@
     height: 350px;
     }
 }
-@media (max-width: 435px) {
-    .cv {
-        display: none;
-}
-}
+
 @media (max-width: 400px) {
     .presentacion{
         top:57%;
